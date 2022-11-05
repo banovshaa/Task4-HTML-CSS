@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Merriweather', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.head{
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 100%;
+    overflow: auto;
+    padding: 1.5rem 9.2rem;
+    position: fixed;
+}
+.logo {
+    float: left;
+    
+}
+.logo a{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #6c757d;
+    transition: .5s;
+}
+.logo a:hover{
+    color:#f8f9fa;
+}
+.nav{
+    float: right;
+}
+.nav a{
+    font-size: .9rem;
+    font-weight: 700;
+    color: #6c757d;
+    margin-left: 1.5rem;
+    transition: .5s;
+}
+.nav a:hover{
+    color:#f8f9fa;
+}
+.first-part{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 13rem 0rem;
+    text-align: center;
+}
+
+.first-part h1{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    width: 55%;
+    margin: 0 auto;
+}
+.first-part p{
+   color: rgba(255, 255, 255, 0.75);
+   font-size: 1.15rem;
+   width: 55%;
+   margin: 0 auto;
+   padding-bottom: 4.2rem;
+}
+.first-part a{
+    background-color: #f4623a;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1.25rem 2.25rem;
+    border-radius: 40px;
+}
+.first-part hr{
+    height: 0.2rem;
+    width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    border: none;
+}
+.second-part{
+    background-color: #f4623a;
+    text-align: center;
+    color: white;
+    padding: 6rem 0;
+}
+.second-part h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.second-part hr{
+    height: 0.2rem;
+    width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: white;
+    border: none;
+}
+.second-part p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.15rem;
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 4.2rem;
+ }
+ .second-part a{
+    background-color:white;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1.25rem 2.25rem;
+    border-radius: 40px;
+}
+.third-part{
+    text-align: center;
+    padding: 6rem 0;
+}
+.third-part h2{    
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.third-part h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+}
+.third-part hr{
+    height: 0.2rem;
+    width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color:#f4623a;
+    border: none;
+}
+.third-part .services{
+    overflow:auto;
+}
+.third-part .services .serv{
+    float: left;
+    width: 25%;
+}
+.third-part .services .serv p{
+    padding:.75rem 3rem;
+}
+.third-part i{
+    font-size: 3rem;
+    color:#f4623a
+}
+.third-part .services .serv .icon{
+    margin:3rem 0 1.5rem;
+}
